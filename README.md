@@ -13,7 +13,6 @@ Local FastAPI + SQLite + Pandas + scikit-learn learning project.
 ## Run locally
 
 ```cmd
-cd "C:\Users\Sakshi S Netrakar\Desktop\SmartCart AI E-Commerce"
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -21,7 +20,5 @@ uvicorn main:app --reload
 ```
 
 Open `http://127.0.0.1:8000` for the simple frontend and `http://127.0.0.1:8000/docs` for Swagger testing.
-
-Demo admin credentials: `customer1@smartcart.local` / `password123`.
 
 This is a local training project. The database, datasets, and model files are generated automatically and are excluded by `.gitignore`.
